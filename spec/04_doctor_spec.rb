@@ -45,8 +45,6 @@ describe "Doctor" do
       hevydevy = Patient.new("Devin Townsend")
       doctor_who.new_appointment(hevydevy, "Friday, January 32nd")
 
-      binding.pry
-
       expect(doctor_who.patients).to include(hevydevy)
     end
   end
