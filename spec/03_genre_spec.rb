@@ -30,7 +30,7 @@ describe "Genre" do
       humble = Song.new("HUMBLE", kendrick, rap)
 
       expect(rap.artists).to include(jay_z)
-      binding.pry
+
       expect(rap.artists).to include(kendrick)
     end
   end
